@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"zig.zls.enabled": "on",
+		"zig.zls.enableBuildOnSave": true,
+		"[zig]": {
+			"editor.formatOnSave": true,
+			"editor.suggest.insertMode": "replace",
+			"editor.stickyScroll.defaultModel": "foldingProviderModel",
+			"editor.codeActionsOnSave": {
+				"source.fixAll": "explicit",
+				"source.organizeImports": "explicit",
+			}
+		},
+	}
+}
